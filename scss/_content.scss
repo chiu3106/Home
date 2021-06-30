@@ -1,0 +1,62 @@
+.content{
+    @include m-auto;
+}
+.six-block{
+    @include d-flex;
+    flex-wrap: wrap;
+}
+.two-block{
+    @include d-flex;
+    flex-wrap: wrap;
+}
+.block{
+    width: 555px;
+    height: 555px;
+    @include d-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.long-block{
+    width: 555px;
+    height: 1080px;
+}
+.long-block ul{
+    @include d-flex;
+    flex-direction: column;
+}
+.product{
+    width: 100%;
+    height: 728px;
+    background: $light-gray;
+    @include relative;
+    z-index: 1;
+}
+.product ul{
+    @include d-flex;
+    @include jcsb;
+    @include m-auto;
+}
+.product img{
+    width: 350px;
+    height: 540px;
+}
+
+.soldout{
+    width: 350px;
+    height: 540px;
+    background-color: $black;
+    opacity: 0.3;
+    @include absolute;
+    top: 40px;
+}
+.soldout p{
+    padding-top: 252px;
+    color: $white;
+}
+.graph img{
+    height: 520px;
+}
+.two-graph{
+    @include d-flex;
+    @include jcsb;
+}

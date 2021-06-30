@@ -1,0 +1,47 @@
+.footer a p:hover{
+    color: $black;
+}
+.footer .banner{
+    @include m-auto;
+    width: 1920px;
+    height: 600px;
+    @include relative;
+    background-image: url(../images/index10-0.jpg);
+}
+
+.footer .word p{
+    @include absolute;
+    left: 405px;
+    top: 312px;
+}
+.box2{
+    height: 60px;
+    @include absolute;
+    left: 405px;
+    top: 428px;
+    background: white;
+    border: 2px solid #916000;
+}
+
+.box3{
+    background: #916000;
+    width: 130px;
+    height: 58px;
+    @include absolute;
+    left: 219px;
+    top: -1px;
+}
+.footer .contact{
+    height: 80px;
+    background: $dark-brown;
+}
+.box4{
+    @include m-auto;
+    @include d-flex;
+    @include jcsb;
+    align-items: center;
+}
+.box5{
+    @include d-flex;
+}
+
